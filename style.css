@@ -1,0 +1,25 @@
+:root {
+    --fundo_principal_1: #844629;
+    --fundo_principal_2: #997868;
+    --cor_principal: #eee8df;
+    --cor_secundaria: #8c492b;
+    --cor_terciaria: #d17c4f;
+    --cor_quataria: #c4ae98;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(top,
+            #844629,
+            #844629 15%,
+            #997868 15%,
+            #997868);
+}
