@@ -17,9 +17,14 @@
     font-weight: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    padding-top: 150px;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,26 +35,248 @@ body {
             #997868);
 }
 
-.container{
-    width: 75%;
-    height: 90vh;
+
+.container {
+    width: 80%;
+    height: auto;
+    position: relative;
     background-color: var(--cor_principal);
 }
 
-.titulo{
+.titulo {
     font-family: 'Dosis', sans-serif;
+
 }
 
-.titulo h1{
+.titulo h1 {
     display: flex;
     justify-content: center;
+    padding-top: 15px;
     font-size: 60px;
+
     color: var(--fundo_principal_2);
 }
 
-.titulo p{
+.titulo p {
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
     font-size: 12px;
+    text-transform: uppercase;
     color: var(--fundo_principal_2);
+}
+
+.inicio {
+    position: relative;
+}
+
+.inicio img {
+    width: 100%;
+    height: 80vh;
+}
+
+.inicio-texto {
+    position: absolute;
+    top: 110px;
+    right: 970px;
+    max-width: 25vw;
+    font-family: 'EB Garamond', serif;
+    color: black;
+}
+
+.inicio-texto h1 {
+    font-size: 90px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.inicio-texto p {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.inicio-texto a {
+    text-decoration: none;
+    color: black;
+    background-color: var(--cor_terciaria);
+    padding: 12px 25px 12px 25px;
+}
+
+@media (max-width:669px) {
+    .container {
+        width: 96%;
+        height: auto;
+        position: relative;
+        background-color: var(--cor_principal);
+    }
+
+    .inicio img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .inicio-texto {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        max-width: none;
+        font-family: 'EB Garamond', serif;
+        color: black;
+    }
+
+    .inicio-texto h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .inicio-texto p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .inicio-texto a {
+        text-decoration: none;
+        color: black;
+        background-color: var(--cor_terciaria);
+        padding: 12px 25px 12px 25px;
+    }
+
+
+}
+
+@media (max-width:1500px) and (min-width:670px) {
+    .container {
+        width: 96%;
+        height: auto;
+        position: relative;
+        background-color: var(--cor_principal);
+    }
+
+    .inicio img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .inicio-texto {
+        position: absolute;
+        top: 130px;
+        right: 450px;
+        padding-left: 50px;
+        max-width: 30vw;
+        font-family: 'EB Garamond', serif;
+        color: black;
+    }
+
+    .inicio-texto h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .inicio-texto p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .inicio-texto a {
+        text-decoration: none;
+        color: black;
+        background-color: var(--cor_terciaria);
+        padding: 12px 25px 12px 25px;
+    }
+
+}
+
+@media (max-height:660px) {
+    .inicio img {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .inicio-texto {
+        position: absolute;
+        top: 50px;
+        right: 500px;
+        max-width: none;
+        font-family: 'EB Garamond', serif;
+        color: black;
+    }
+
+}
+
+@media (max-height:375px) {
+    .inicio-texto h1 {
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .inicio-texto p {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    .inicio-texto a {
+        text-decoration: none;
+        color: black;
+        background-color: var(--cor_terciaria);
+        padding: 10px 15px 10px 15px;
+    }
+}
+
+.empreendimento{
+    background-color: var(--cor_principal);
+}
+
+.empreendimento img {
+    width: 60%;
+    height: 70vh;
+    float: right;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.empree-texto {
+    position: absolute;
+    top: 1050px;
+    right: 850px;
+    background-color: var(--cor_terciaria);
+    font-family: 'EB Garamond', serif;
+    width: 25vw;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.empree-texto h1 {
+    padding-top: 55px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.empree-texto p {
+    padding-top: 25px;
+}
+
+.empree-texto p:nth-child(3) {
+    padding-bottom: 55px;
+}
+
+@media (max-width:669px){
+    .empreendimento img {
+        width: 100%;
+        height: 40vh;
+        float: none;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    
+    .empree-texto {
+        position: unset;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
