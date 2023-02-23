@@ -280,3 +280,243 @@ body {
         padding-right: 50px;
     }
 }
+
+@media (max-width:1000px) and (min-width:670px) {
+    .empreendimento img {
+        width: 70%;
+        height: 70vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 800px;
+        right: 400px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 35vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:1001px) {
+    .empreendimento img {
+        width: 70%;
+        height: 70vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 900px;
+        right: 600px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 35vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:1900px) and (min-width:1201px) {
+    .empreendimento img {
+        width: 70%;
+        height: 70vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 900px;
+        right: 900px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 30vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-height:1200px) and (min-height:1100px) {
+    .empreendimento img {
+        width: 70%;
+        height: 60vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 1200px;
+        right: 400px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 35vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-height:1099px) and (min-height:950px) {
+    .empreendimento img {
+        width: 70%;
+        height: 60vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 1100px;
+        right: 400px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 40vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-height:1400px) and (min-height:1300px) {
+    .empreendimento img {
+        width: 70%;
+        height: 60vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 1450px;
+        right: 500px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 35vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-height:450px) and (min-height:380px) {
+    .empreendimento img {
+        width: 70%;
+        height: 100vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 550px;
+        right: 500px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 35vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-height:649px) and (min-height:500px) {
+    .empreendimento img {
+        width: 70%;
+        height: 100vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 850px;
+        right: 600px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 30vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-height:379px) and (min-height:270px) {
+    .empreendimento img {
+        width: 70%;
+        height: 100vh;
+        float: right;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .empree-texto {
+        position: absolute;
+        top: 520px;
+        right: 330px;
+        background-color: var(--cor_terciaria);
+        font-family: 'EB Garamond', serif;
+        width: 45vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.especificacao{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 750px;
+}
+
+.espe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espe-texto{
+    font-family: 'EB Garamond', serif;
+    padding-left: 25px;
+}
+
+.espe-texto i{
+    color: var(--cor_secundaria);
+    font-size: 80px;
+    padding-left: 70px;
+}
+
+.espe-texto p{
+    color: var(--cor_terciaria);
+    font-size: 25px;
+}
+
+@media (max-width:669px){
+    .especificacao{
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-top: 50px;
+    }
+
+    .espe-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-height:380px){
+    .especificacao{
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-top: 350px;
+    }
+}
