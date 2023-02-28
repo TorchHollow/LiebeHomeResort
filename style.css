@@ -520,3 +520,19 @@ body {
         padding-top: 350px;
     }
 }
+
+.espe-video{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.espe-video i{
+    position: absolute;
+    font-size: 120px;
+    color: var(--cor_terciaria);
+    visibility: visible;
+}
+
+.espe-video #botaoPlay:hover{
+    visibility: hidden;
+}
