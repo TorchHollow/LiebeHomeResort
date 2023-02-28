@@ -530,9 +530,29 @@ body {
     position: absolute;
     font-size: 120px;
     color: var(--cor_terciaria);
-    visibility: visible;
+    top: 80%;
+    left: 50%;
+    z-index: 1;
 }
 
-.espe-video #botaoPlay:hover{
-    visibility: hidden;
+@media (max-width:669px){
+    .espe-video{
+        height: 100%;
+    }
+
+    .espe-video i{
+        font-size: 60px;
+        top: 90%;
+    }
+}
+
+@media (max-width:1100px) and (min-width:670px){
+    .espe-video{
+        height: 100%;
+    }
+
+    .espe-video i{
+        font-size: 90px;
+        top: 85%;
+    }
 }
