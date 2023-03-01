@@ -225,7 +225,7 @@ body {
     }
 }
 
-.empreendimento{
+.empreendimento {
     background-color: var(--cor_principal);
 }
 
@@ -262,7 +262,7 @@ body {
     padding-bottom: 55px;
 }
 
-@media (max-width:669px){
+@media (max-width:669px) {
     .empreendimento img {
         width: 100%;
         height: 40vh;
@@ -270,7 +270,7 @@ body {
         padding-bottom: 5px;
         padding-top: 5px;
     }
-    
+
     .empree-texto {
         position: unset;
         background-color: var(--cor_terciaria);
@@ -385,6 +385,7 @@ body {
         padding-right: 0px;
     }
 }
+
 @media (max-height:1400px) and (min-height:1300px) {
     .empreendimento img {
         width: 70%;
@@ -469,51 +470,51 @@ body {
     }
 }
 
-.especificacao{
+.especificacao {
     width: 100%;
     height: auto;
     position: relative;
     padding-top: 750px;
 }
 
-.espe-container{
+.espe-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.espe-texto{
+.espe-texto {
     font-family: 'EB Garamond', serif;
     padding-left: 25px;
 }
 
-.espe-texto i{
+.espe-texto i {
     color: var(--cor_secundaria);
     font-size: 80px;
     padding-left: 70px;
 }
 
-.espe-texto p{
+.espe-texto p {
     color: var(--cor_terciaria);
     font-size: 25px;
 }
 
-@media (max-width:669px){
-    .especificacao{
+@media (max-width:669px) {
+    .especificacao {
         width: 100%;
         height: auto;
         position: relative;
         padding-top: 50px;
     }
 
-    .espe-container{
+    .espe-container {
         display: flex;
         flex-direction: column;
     }
 }
 
-@media (max-height:380px){
-    .especificacao{
+@media (max-height:380px) {
+    .especificacao {
         width: 100%;
         height: auto;
         position: relative;
@@ -521,12 +522,12 @@ body {
     }
 }
 
-.espe-video{
+.espe-video {
     padding-top: 50px;
     text-align: center;
 }
 
-.espe-video i{
+.espe-video i {
     position: absolute;
     font-size: 120px;
     color: var(--cor_terciaria);
@@ -535,24 +536,118 @@ body {
     z-index: 1;
 }
 
-@media (max-width:669px){
-    .espe-video{
+@media (max-width:669px) {
+    .espe-video {
         height: 100%;
     }
 
-    .espe-video i{
+    .espe-video i {
         font-size: 60px;
         top: 90%;
     }
 }
 
-@media (max-width:1100px) and (min-width:670px){
-    .espe-video{
+@media (max-width:1100px) and (min-width:670px) {
+    .espe-video {
         height: 100%;
     }
 
-    .espe-video i{
+    .espe-video i {
         font-size: 90px;
         top: 85%;
+    }
+}
+
+.infraestrutura {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.infraestrutura img {
+    width: 65%;
+    height: 60vh;
+}
+
+.infra-texto {
+    background-color: var(--cor_terciaria);
+    width: 25vw;
+    font-family: 'EB Garamond', serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+.infra-texto h1 {
+    font-size: 50px;
+}
+
+.infra-texto p {
+    font-size: 18px;
+}
+
+@media (max-width:669px) {
+    .infraestrutura {
+        padding-bottom: 0px;
+    }
+
+    .infraestrutura img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .infra-texto {
+        background-color: var(--cor_terciaria);
+        width: 100%;
+        font-family: 'EB Garamond', serif;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        position: unset;
+        top: 0;
+        left: 0;
+    }
+
+}
+
+@media (max-width:1500px) and (min-width:670px){
+    .infra-texto {
+        background-color: var(--cor_terciaria);
+        width: 40vw;
+        font-family: 'EB Garamond', serif;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+    }
+}
+
+@media (max-height:600px) and (min-height:350px){
+    .infra-texto {
+        background-color: var(--cor_terciaria);
+        width: 40vw;
+        font-family: 'EB Garamond', serif;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+    }
+
+    .infraestrutura img {
+        width: 65%;
+        height: 100vh;
     }
 }
