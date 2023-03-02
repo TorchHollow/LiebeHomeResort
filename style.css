@@ -617,7 +617,7 @@ body {
 
 }
 
-@media (max-width:1500px) and (min-width:670px){
+@media (max-width:1500px) and (min-width:670px) {
     .infra-texto {
         background-color: var(--cor_terciaria);
         width: 40vw;
@@ -632,7 +632,7 @@ body {
     }
 }
 
-@media (max-height:600px) and (min-height:350px){
+@media (max-height:600px) and (min-height:350px) {
     .infra-texto {
         background-color: var(--cor_terciaria);
         width: 40vw;
@@ -649,5 +649,91 @@ body {
     .infraestrutura img {
         width: 65%;
         height: 100vh;
+    }
+}
+
+.galeria {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.galeria-secundaria {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-principal img {
+    width: 90%;
+    height: 50vh;
+    padding-left: 200px;
+}
+
+.img-principal p {
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    color: var(--cor_secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-secundario img {
+    width: 35vw;
+    height: 25vh;
+    padding-left: 130px;
+}
+
+.img-secundario p {
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    color: var(--cor_secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:669px){
+    .galeria{
+        padding-top: 20px;
+    }
+
+    .galeria-secundaria {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .img-principal img {
+        width: 100%;
+        height: 25vh;
+        padding-left: 0px;
+    }
+
+    .img-secundario img {
+        width: 80vw;
+        height: 25vh;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+    
+    
+}
+
+@media (max-width:1500px) and (min-width:670px){
+    .img-principal img {
+        width: 90%;
+        height: 50vh;
+        padding-left: 50px;
+    }
+
+    .img-secundario img {
+        width: 45vw;
+        height: 25vh;
+        padding-left: 30px;
     }
 }
