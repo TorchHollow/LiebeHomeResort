@@ -738,6 +738,20 @@ body {
     }
 }
 
+@media (max-height:380px){
+    .img-principal img {
+        width: 90%;
+        height: 70vh;
+        padding-left: 50px;
+    }
+
+    .img-secundario img {
+        width: 65vw;
+        height: 45vh;
+        padding-left: 200px;
+    }
+}
+
 .detalhes {
     width: 100%;
     height: auto;
@@ -861,10 +875,10 @@ body {
         padding-left: 25px;
         padding-top: 25px;
     }
-    
+
 }
 
-@media (max-width:1500px) and (min-width:670px){
+@media (max-width:1500px) and (min-width:670px) {
     .reforco {
         width: 100%;
         height: auto;
@@ -886,9 +900,9 @@ body {
     }
 }
 
-@media (max-height:600px) and (min-height:350px){
+@media (max-height:600px) and (min-height:350px) {
     .reforco-container {
-        width: 50%;
+        width: 100%;
         height: 100%;
         position: relative;
         background-color: var(--fundo_principal_2);
@@ -896,5 +910,179 @@ body {
         padding-left: 50px;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+}
+
+.opinioes {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+.opinioes h1 {
+    color: var(--cor_secundaria);
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.op-titulo h1:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+
+.op-titulo h1:nth-child(2){
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.opinioes .opiniao-caixa h1 {
+    color: var(--fundo_principal_2);
+    font-size: 65px;
+}
+
+.opiniao-caixa {
+    font-size: 20px;
+    color: var(--cor_terciaria);
+}
+
+.opiniao-caixa p:nth-child(4) {
+    font-weight: bold;
+    color: var(--fundo_principal_1);
+}
+
+.opiniao-caixa p:nth-child(6) {
+    font-weight: bold;
+    color: var(--fundo_principal_1);
+}
+
+
+
+.opinioes-container {
+    position: relative;
+    padding: 15px;
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+.wrapper-galeria {
+    overflow-x: auto;
+}
+
+.galeria2 {
+    display: flex;
+    flex-direction: row nowrap;
+    gap: 15px;
+}
+
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: var(--cor_secundaria);
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, var(--cor_terciaria) 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right{
+    position: absolute;
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, var(--cor_terciaria) 200%);
+}
+
+.arrow-left:hover,
+.arrow-right:hover{
+    opacity: 1;
+}
+
+.item{
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+.current-item{
+    opacity: 1;
+}
+
+.wrapper-galeria::-webkit-scrollbar {
+    display: none;
+}
+
+
+.wrapper-galeria {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+@media (max-width:669px){
+    .opinioes-container {
+        position: relative;
+        padding: 15px;
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+
+    .opinioes h1 {
+        color: var(--cor_secundaria);
+        font-size: 30px;
+        font-weight: 800;
+    
+    }
+
+    .opiniao-caixa {
+        font-size: 15px;
+        color: var(--cor_terciaria);
+    }
+
+    .item{
+        width: 225px;
+        height: 500px;
+        flex-shrink: 0;
+        opacity: 1;
+        transition: all 600ms ease-in-out;
+    }
+}
+
+@media (max-width:1500px) and (min-width:670px){
+    .opinioes-container {
+        position: relative;
+        padding: 15px;
+        max-width: 65vw;
+        margin: 0 auto;
+    }
+}
+
+@media (max-height:380px){
+    .opinioes-container {
+        position: relative;
+        padding: 15px;
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+
+    .item{
+        width: 405px;
+        height: 500px;
+        flex-shrink: 0;
+        opacity: 1;
+        transition: all 600ms ease-in-out;
     }
 }
