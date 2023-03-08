@@ -738,7 +738,7 @@ body {
     }
 }
 
-@media (max-height:380px){
+@media (max-height:380px) {
     .img-principal img {
         width: 90%;
         height: 70vh;
@@ -927,12 +927,12 @@ body {
 
 }
 
-.op-titulo h1:nth-child(1){
+.op-titulo h1:nth-child(1) {
     display: flex;
     justify-content: center;
 }
 
-.op-titulo h1:nth-child(2){
+.op-titulo h1:nth-child(2) {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -998,7 +998,7 @@ body {
     transition: all 600ms ease-in-out;
 }
 
-.arrow-right{
+.arrow-right {
     position: absolute;
     left: auto;
     right: 0;
@@ -1006,11 +1006,11 @@ body {
 }
 
 .arrow-left:hover,
-.arrow-right:hover{
+.arrow-right:hover {
     opacity: 1;
 }
 
-.item{
+.item {
     width: 450px;
     height: 500px;
     flex-shrink: 0;
@@ -1018,7 +1018,7 @@ body {
     transition: all 600ms ease-in-out;
 }
 
-.current-item{
+.current-item {
     opacity: 1;
 }
 
@@ -1028,11 +1028,11 @@ body {
 
 
 .wrapper-galeria {
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-@media (max-width:669px){
+@media (max-width:669px) {
     .opinioes-container {
         position: relative;
         padding: 15px;
@@ -1044,7 +1044,7 @@ body {
         color: var(--cor_secundaria);
         font-size: 30px;
         font-weight: 800;
-    
+
     }
 
     .opiniao-caixa {
@@ -1052,7 +1052,7 @@ body {
         color: var(--cor_terciaria);
     }
 
-    .item{
+    .item {
         width: 225px;
         height: 500px;
         flex-shrink: 0;
@@ -1061,7 +1061,7 @@ body {
     }
 }
 
-@media (max-width:1500px) and (min-width:670px){
+@media (max-width:1500px) and (min-width:670px) {
     .opinioes-container {
         position: relative;
         padding: 15px;
@@ -1070,7 +1070,7 @@ body {
     }
 }
 
-@media (max-height:380px){
+@media (max-height:380px) {
     .opinioes-container {
         position: relative;
         padding: 15px;
@@ -1078,11 +1078,246 @@ body {
         margin: 0 auto;
     }
 
-    .item{
+    .item {
         width: 405px;
         height: 500px;
         flex-shrink: 0;
         opacity: 1;
         transition: all 600ms ease-in-out;
+    }
+}
+
+.contato {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.contato-mensagem {
+    background-image: url(./sources/cabelo.jpg);
+    background-size: 50vw auto;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: auto;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.contato-mensagem h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-mensagem p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: var(--cor_secundaria);
+    width: 25vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 12%;
+    left: 63%;
+}
+
+.formulario h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form{
+    padding-left: 70px;
+}
+
+.formulario p {
+    font-size: 20px;
+}
+
+.for-input {
+    width: 15vw;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid var(--cor_secundaria);
+    border-radius: 4px;
+}
+
+.for-btn {
+    background-color: var(--cor_terciaria);
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+@media (max-width:669px){
+    .contato {
+        width: 100%;
+        height: auto;
+        position: relative;
+        font-family: 'EB Garamond', serif;
+        padding-bottom: 100px;
+        padding-top: 20px;
+    }
+    
+    .contato-mensagem {
+        background-image: url(./sources/cabelo.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .contato-mensagem h1 {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contato-mensagem p {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .formulario {
+        background-color: var(--cor_secundaria);
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        position: unset;
+    }
+
+    .formulario h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .formulario form{
+        padding-left: 0px;
+    }
+    
+    .formulario p {
+        font-size: 20px;
+    }
+    
+    .for-input {
+        width: 90%;
+        padding: 5px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid var(--cor_secundaria);
+        border-radius: 4px;
+    }
+
+    .for-btn {
+        background-color: var(--cor_terciaria);
+        border: none;
+        color: #fff;
+        padding: 12px 20px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: 'EB Garamond', serif;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1500px) and (min-width:670px){
+    .contato {
+        width: 100%;
+        height: auto;
+        position: relative;
+        font-family: 'EB Garamond', serif;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    .contato-mensagem {
+        background-image: url(./sources/cabelo.jpg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        width: 55vw;
+        height: auto;
+        color: #fff;
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    
+    .contato-mensagem h1 {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contato-mensagem p {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formulario {
+        background-color: var(--cor_secundaria);
+        width: 40vw;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: absolute;
+        top: 12%;
+        left: 58%;
+    }
+    
+    .formulario h1 {
+        font-size: 35px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .formulario form{
+        padding-left: 20px;
+    }
+    
+    .formulario p {
+        font-size: 20px;
+    }
+    
+    .for-input {
+        width: 80%;
+        padding: 5px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid var(--cor_secundaria);
+        border-radius: 4px;
+    }
+    
+    .for-btn {
+        background-color: var(--cor_terciaria);
+        border: none;
+        color: #fff;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: 'EB Garamond', serif;
+        font-size: 20px;
     }
 }
