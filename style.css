@@ -1321,3 +1321,47 @@ body {
         font-size: 20px;
     }
 }
+
+.foo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    background-image: url(./sources/galeria9.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.foo h1{
+    font-size: 150px;
+}
+.foo p{
+    font-size: 30px;
+}
+
+.foo-con{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.foo-con h1{
+    text-align: center;
+}
+
+.foo-con p{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #fff;
+    background-color: var(--cor_secundaria);
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
